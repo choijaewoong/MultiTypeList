@@ -20,7 +20,6 @@ public class SendView extends FrameLayout {
     }
 
     public void setData(SendData data){
-        messageView.setData;
-
+        messageView.setText(data.message);
     }
 }
